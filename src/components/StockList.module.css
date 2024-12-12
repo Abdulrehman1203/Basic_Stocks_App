@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stockList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stockItem {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.stockItem a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.stockItem a:hover {
+  text-decoration: underline;
+}
+
+.message {
+  color: #dc3545;
+  margin-top: 20px;
+}
